@@ -1,0 +1,25 @@
+/* ------------ CSS PROPERTIES ------------*/
+:root {
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-ml: 1.5rem;
+    --space-lg: 2rem;
+    --space-lg1: 2.5rem;
+    --space-xl: 3rem;
+    --space-xxl: 6rem;
+    --font-sz-xs: 0.5rem;
+    --font-sz-s: 0.8rem;
+    --font-sz-med: 1.2rem;
+    --font-sz-ml: 1.5rem;
+    --font-sz-lg: 2rem;
+    --padding-basic: 10px;
+}
+
+/* ------------ CSS RESET ------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------ UTILITIES ------------ */
