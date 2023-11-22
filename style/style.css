@@ -20,6 +20,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik Mono One', monospace, sans-serif;
+}
+
+html {
+    overflow-y: hidden;
+    scroll-behavior: smooth;
 }
 
 /* ------------ UTILITIES ------------ */
+
+main .wrapper {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    flex-shrink: 0;
+    flex-grow: 0;
+    min-height: 50%;
+    min-width: 50%;
+    max-width: 800px;
+}
+.flex {
+    display: flex;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-green {
+    background-color: green;
+}
+.bg-yellow {
+    background-color: yellow;
+}
+.txt-yellow {
+    color: yellow;
+}
+.txt-green {
+    color: green;
+}
+
+
+/* MAIN */
+
+h1 {
+    font-size: 2.5rem;
+    max-width: 800px;
+    text-align: center;
+}
+.container img {
+    height: 100%;
+}
